@@ -10,15 +10,15 @@ To analyze e-commerce data using SQL and generate actionable insights for improv
 ## Database Schema
 
 ### 🧩 Schema Overview
-**Customers** (cust_id, name, location)
-**Orders** (order_id, customer_id, order_date, total_amount)
-**OrderDetails** (order_id, product_id, quantity, price_per_unit)
-**Products** (product_id, name, category, price)
+- **Customers** (cust_id, name, location)
+- **Orders** (order_id, customer_id, order_date, total_amount)
+- **OrderDetails** (order_id, product_id, quantity, price_per_unit)
+- **Products** (product_id, name, category, price)
 
 ### 🔗 Entity Relationships
-**Customers → Orders:** One-to-Many (A customer can place multiple orders)
-**Orders → OrderDetails:** One-to-Many (Each order can have multiple products)
-**Products → OrderDetails:** One-to-Many (A product can appear in multiple orders)
+- **Customers → Orders:** One-to-Many (A customer can place multiple orders)
+- **Orders → OrderDetails:** One-to-Many (Each order can have multiple products)
+- **Products → OrderDetails:** One-to-Many (A product can appear in multiple orders)
 
 ## ER Diagram
 ![ER Diagram](./ER_Diagram.png)
@@ -42,8 +42,9 @@ To analyze e-commerce data using SQL and generate actionable insights for improv
 - Analyzed product demand and inventory efficiency through sales frequency metrics.
 - Evaluated customer acquisition trends using first purchase date analysis.
 
-## 💻 Sample SQL Queries
-Here are some key queries used in the analysis:
+## 💻 SQL Queries
+You can find all SQL queries used in this analysis here:  
+👉 [View SQL File](./sql/e-commerce_analysis.sql)
 
 ## 🔍 Project Insights
 - Identified **top 3 cities contributing the highest customer base**, enabling targeted marketing strategies.
