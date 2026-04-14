@@ -7,6 +7,9 @@ SQL-based analysis of an e-commerce dataset to uncover insights across customer 
 ## 🎯 Project Objective
 To analyze e-commerce data using SQL and generate actionable insights for improving customer engagement, optimizing product strategy, enhancing sales performance, and managing inventory effectively.
 
+## Dataset
+👉 [View Dataset](./Data/e-commerce-company.sql)
+
 ## Database Schema
 
 ### 🧩 Schema Overview
@@ -21,7 +24,7 @@ To analyze e-commerce data using SQL and generate actionable insights for improv
 - **Products → OrderDetails:** One-to-Many (A product can appear in multiple orders)
 
 ## ER Diagram
-![ER Diagram](./ER_Diagram.png)
+![ER Diagram](./Images/ER_Diagram.png)
 
 ## ❓ Questions
 - Which are the top cities with the highest customer base?
@@ -44,7 +47,7 @@ To analyze e-commerce data using SQL and generate actionable insights for improv
 
 ## 💻 SQL Queries
 You can find all SQL queries used in this analysis here:  
-👉 [View SQL File](./sql/e-commerce_analysis.sql)
+👉 [View SQL File](./SQL/e-commerce_analysis.sql)
 
 ## 🔍 Project Insights
 - Identified **top 3 cities contributing the highest customer base**, enabling targeted marketing strategies.
