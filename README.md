@@ -1,22 +1,27 @@
 # E-Commerce-Sales-Analysis 
 ![SQL](https://img.shields.io/badge/SQL-Data%20Analysis-blue)
 ![Database](https://img.shields.io/badge/Database-MySQL-lightgrey)
+
 SQL-based analysis of an e-commerce dataset to uncover insights across customer behavior, product performance, sales trends, and inventory efficiency, enabling data-driven business decisions.
 
 ## 🎯 Project Objective
 To analyze e-commerce data using SQL and generate actionable insights for improving customer engagement, optimizing product strategy, enhancing sales performance, and managing inventory effectively.
 
-## Database Schema (ER Diagram)
+## Database Schema
 
-### 🔗 Entity Relationships
-**Customers → Orders:** One-to-Many (A customer can place multiple orders)
-**Orders → OrderDetails:** One-to-Many (Each order can have multiple products)
-**Products → OrderDetails:** One-to-Many (A product can appear in multiple orders)
 ### 🧩 Schema Overview
 **Customers** (cust_id, name, location)
 **Orders** (order_id, customer_id, order_date, total_amount)
 **OrderDetails** (order_id, product_id, quantity, price_per_unit)
 **Products** (product_id, name, category, price)
+
+### 🔗 Entity Relationships
+**Customers → Orders:** One-to-Many (A customer can place multiple orders)
+**Orders → OrderDetails:** One-to-Many (Each order can have multiple products)
+**Products → OrderDetails:** One-to-Many (A product can appear in multiple orders)
+
+## ER Diagram
+![ER Diagram](./ER_Diagram.png)
 
 ## ❓ Questions
 - Which are the top cities with the highest customer base?
